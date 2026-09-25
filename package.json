@@ -1,7 +1,0 @@
-{
-  "name": "red-ecp-plataforma",
-  "version": "2.0.1",
-  "private": true,
-  "type": "module",
-  "description": "Aplicaciones estáticas ECP y GADM/MIT, sin build obligatorio"
-}
