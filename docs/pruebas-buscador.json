@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "unitarias_busqueda": 5,
+  "regresion_documental": 4,
+  "navegadores": [
+    {
+      "engine": "chrome",
+      "checks": [
+        "Término parcial, resultados ordenados, salto al concepto, resaltado y regreso a resultados",
+        "Coincidencias exclusivas del texto original, página correcta y resaltado en el lector",
+        "Mayúsculas y tildes, varias palabras, consulta inexistente, HTML seguro y cierre",
+        "Buscador visible con menú cerrado, teclado, móvil 360 px y texto al 200 %",
+        "Una respuesta tardía de búsqueda no reemplaza el concepto seleccionado",
+        "Si falla la Guía, los conceptos siguen disponibles y la lectura se puede reintentar",
+        "Sin errores de JavaScript ni cambios en el almacenamiento del piloto"
+      ],
+      "errors": []
+    },
+    {
+      "engine": "edge",
+      "checks": [
+        "Término parcial, resultados ordenados, salto al concepto, resaltado y regreso a resultados",
+        "Coincidencias exclusivas del texto original, página correcta y resaltado en el lector",
+        "Mayúsculas y tildes, varias palabras, consulta inexistente, HTML seguro y cierre",
+        "Buscador visible con menú cerrado, teclado, móvil 360 px y texto al 200 %",
+        "Una respuesta tardía de búsqueda no reemplaza el concepto seleccionado",
+        "Si falla la Guía, los conceptos siguen disponibles y la lectura se puede reintentar",
+        "Sin errores de JavaScript ni cambios en el almacenamiento del piloto"
+      ],
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "checks": [
+        "Término parcial, resultados ordenados, salto al concepto, resaltado y regreso a resultados",
+        "Coincidencias exclusivas del texto original, página correcta y resaltado en el lector",
+        "Mayúsculas y tildes, varias palabras, consulta inexistente, HTML seguro y cierre",
+        "Buscador visible con menú cerrado, teclado, móvil 360 px y texto al 200 %",
+        "Una respuesta tardía de búsqueda no reemplaza el concepto seleccionado",
+        "Si falla la Guía, los conceptos siguen disponibles y la lectura se puede reintentar",
+        "Sin errores de JavaScript ni cambios en el almacenamiento del piloto"
+      ],
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "checks": [
+        "Término parcial, resultados ordenados, salto al concepto, resaltado y regreso a resultados",
+        "Coincidencias exclusivas del texto original, página correcta y resaltado en el lector",
+        "Mayúsculas y tildes, varias palabras, consulta inexistente, HTML seguro y cierre",
+        "Buscador visible con menú cerrado, teclado, móvil 360 px y texto al 200 %",
+        "Una respuesta tardía de búsqueda no reemplaza el concepto seleccionado",
+        "Si falla la Guía, los conceptos siguen disponibles y la lectura se puede reintentar",
+        "Sin errores de JavaScript ni cambios en el almacenamiento del piloto"
+      ],
+      "errors": []
+    }
+  ]
+}

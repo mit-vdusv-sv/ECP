@@ -1,0 +1,4152 @@
+{
+  "schemaVersion": 1,
+  "demo": true,
+  "cantones": [
+    {
+      "id": "ibarra",
+      "nombre": "Ibarra",
+      "lat": 0.3517,
+      "lng": -78.1223
+    },
+    {
+      "id": "riobamba",
+      "nombre": "Riobamba",
+      "lat": -1.6636,
+      "lng": -78.6546
+    },
+    {
+      "id": "loja",
+      "nombre": "Loja",
+      "lat": -3.9931,
+      "lng": -79.2042
+    },
+    {
+      "id": "portoviejo",
+      "nombre": "Portoviejo",
+      "lat": -1.0546,
+      "lng": -80.4545
+    }
+  ],
+  "records": [
+    {
+      "id": "demo-ibarra-aportes",
+      "variableId": "v-aportes",
+      "canton": "ibarra",
+      "valor": 84,
+      "unidad": "aportes",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/ibarra/aportes",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "validado",
+      "geometria": null,
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-aportes",
+        "nombre": "Número de aportes ciudadanos",
+        "descripcion": "Conteo de aportes registrados, con distribución territorial y trazabilidad.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "administrativa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 56,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "aportes",
+          "geografica": false,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-ibarra-respuestas",
+      "variableId": "v-respuestas",
+      "canton": "ibarra",
+      "valor": 72,
+      "unidad": "%",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/ibarra/respuestas",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "enviado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.1203,
+          0.3537
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-respuestas",
+        "nombre": "Porcentaje de aportes respondidos",
+        "descripcion": "Proporción reportada por el registro de participación. Se conserva como valor reportado; no se ejecuta una fórmula no aprobada.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "derivada",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": "%",
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 56,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "%",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": 100,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-ibarra-codiseno",
+      "variableId": "v-codiseno",
+      "canton": "ibarra",
+      "valor": 4,
+      "unidad": "proyectos",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/ibarra/codiseno",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "borrador",
+      "geometria": null,
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-codiseno",
+        "nombre": "Proyectos sometidos a codiseño",
+        "descripcion": "Conteo documental de proyectos con procesos de codiseño.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "administrativa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 79,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "proyectos",
+          "geografica": false,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-ibarra-tiempo-acceso",
+      "variableId": "v-tiempo-acceso",
+      "canton": "ibarra",
+      "valor": 12,
+      "unidad": "min",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/ibarra/tiempo-acceso",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "observado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.1163,
+          0.3517
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "Observación de demostración: completar evidencia.",
+      "definicion": {
+        "id": "v-tiempo-acceso",
+        "nombre": "Tiempo estimado de acceso a servicios",
+        "descripcion": "Tiempo de acceso reportado a partir de redes. Requiere especificar destino, modo y supuestos.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k2"
+        ],
+        "ejeECP": [
+          "e5"
+        ],
+        "naturalezaMedicion": "derivada",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 94,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "min",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-ibarra-ancho-acera",
+      "variableId": "v-ancho-acera",
+      "canton": "ibarra",
+      "valor": 1.65,
+      "unidad": "m",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/ibarra/ancho-acera",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "validado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.1223,
+          0.3537
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-ancho-acera",
+        "nombre": "Ancho útil de aceras",
+        "descripcion": "Medición de ancho libre útil en un tramo focal. El TdR no fija un umbral universal de aprobación.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k3"
+        ],
+        "ejeECP": [
+          "e2"
+        ],
+        "naturalezaMedicion": "directa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 59,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "m",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-ibarra-cobertura",
+      "variableId": "v-cobertura",
+      "canton": "ibarra",
+      "valor": 24,
+      "unidad": "%",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/ibarra/cobertura",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "enviado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.1203,
+          0.3557
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-cobertura",
+        "nombre": "Cobertura vegetal",
+        "descripcion": "Cobertura vegetal reportada en un polígono; registrar imagen, fecha, resolución y método.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k4"
+        ],
+        "ejeECP": [
+          "e6"
+        ],
+        "naturalezaMedicion": "teledeteccion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 49,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "%",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": 100,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-ibarra-permeable",
+      "variableId": "v-permeable",
+      "canton": "ibarra",
+      "valor": 1250,
+      "unidad": "m²",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/ibarra/permeable",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "borrador",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.1183,
+          0.3517
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-permeable",
+        "nombre": "Suelo permeable",
+        "descripcion": "Área reportada de suelo permeable en el polígono, con clasificación y método.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k4"
+        ],
+        "ejeECP": [
+          "e6"
+        ],
+        "naturalezaMedicion": "GIS",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 47,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "m²",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-ibarra-temperatura",
+      "variableId": "v-temperatura",
+      "canton": "ibarra",
+      "valor": 26.4,
+      "unidad": "°C",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/ibarra/temperatura",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "observado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.1163,
+          0.3537
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "Observación de demostración: completar evidencia.",
+      "definicion": {
+        "id": "v-temperatura",
+        "nombre": "Temperatura de superficie",
+        "descripcion": "Temperatura superficial como contexto, distinta de temperatura del aire o confort percibido.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k4"
+        ],
+        "ejeECP": [
+          "e6"
+        ],
+        "naturalezaMedicion": "teledeteccion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 94,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "°C",
+          "geografica": true,
+          "minimo": null,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-ibarra-capacitados",
+      "variableId": "v-capacitados",
+      "canton": "ibarra",
+      "valor": 12,
+      "unidad": "personas",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/ibarra/capacitados",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "validado",
+      "geometria": null,
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-capacitados",
+        "nombre": "Usuarios capacitados",
+        "descripcion": "Conteo administrativo de personas capacitadas; no equivale a capacidad institucional agregada.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "administrativa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 33,
+        "paginaTdR": 15,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "personas",
+          "geografica": false,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-ibarra-barreras",
+      "variableId": "v-barreras",
+      "canton": "ibarra",
+      "valor": "Poste reduce el paso libre en el tramo de observación.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/ibarra/barreras",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "enviado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.1203,
+          0.3517
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-barreras",
+        "nombre": "Barreras y obstáculos",
+        "descripcion": "Ubicación y descripción de barreras físicas identificadas en el recorrido.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k3"
+        ],
+        "ejeECP": [
+          "e2"
+        ],
+        "naturalezaMedicion": "observacion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 36,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-ibarra-continuidad",
+      "variableId": "v-continuidad",
+      "canton": "ibarra",
+      "valor": "Recorrido continuo con una interrupción en el cruce norte.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/ibarra/continuidad",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "borrador",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.1183,
+          0.3537
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-continuidad",
+        "nombre": "Continuidad de aceras",
+        "descripcion": "Descripción de continuidad funcional y discontinuidades observadas en el sector focal.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k3"
+        ],
+        "ejeECP": [
+          "e5"
+        ],
+        "naturalezaMedicion": "observacion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 52,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-ibarra-usos",
+      "variableId": "v-usos",
+      "canton": "ibarra",
+      "valor": "Vivienda, comercio barrial y equipamiento educativo.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/ibarra/usos",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "observado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.1163,
+          0.3557
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "Observación de demostración: completar evidencia.",
+      "definicion": {
+        "id": "v-usos",
+        "nombre": "Mezcla de usos y actividades",
+        "descripcion": "Inventario de usos presentes; no se fabrica un índice de mezcla.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k2"
+        ],
+        "ejeECP": [
+          "e3"
+        ],
+        "naturalezaMedicion": "GIS",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 24,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-ibarra-rampas",
+      "variableId": "v-rampas",
+      "canton": "ibarra",
+      "valor": "Dos accesos observados; verificar transición con calzada.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/ibarra/rampas",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "validado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.1223,
+          0.3517
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-rampas",
+        "nombre": "Rampas y accesos",
+        "descripcion": "Inventario focal de rampas y condiciones de acceso, sin score agregado.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k3"
+        ],
+        "ejeECP": [
+          "e2"
+        ],
+        "naturalezaMedicion": "observacion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 52,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-ibarra-sombra",
+      "variableId": "v-sombra",
+      "canton": "ibarra",
+      "valor": "Sombra parcial de arbolado en el recorrido a las 12:00.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/ibarra/sombra",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "enviado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.1203,
+          0.3537
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-sombra",
+        "nombre": "Rutas con sombra",
+        "descripcion": "Descripción focal de sombra en recorridos con fecha y hora de observación.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k4"
+        ],
+        "ejeECP": [
+          "e6"
+        ],
+        "naturalezaMedicion": "observacion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 51,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-ibarra-trazabilidad",
+      "variableId": "v-trazabilidad",
+      "canton": "ibarra",
+      "valor": "Matriz DEMO: aporte sobre cruce incorporado a la alternativa; revisión municipal pendiente.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/ibarra/trazabilidad",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "borrador",
+      "geometria": null,
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-trazabilidad",
+        "nombre": "Trazabilidad de decisiones",
+        "descripcion": "Referencia verificable de decisión, aporte, incorporación o rechazo y justificación.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "administrativa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 56,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": false,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-ibarra-equipamientos",
+      "variableId": "v-equipamientos",
+      "canton": "ibarra",
+      "valor": 8,
+      "unidad": "equipamientos",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/ibarra/equipamientos",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "observado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.1163,
+          0.3517
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "Observación de demostración: completar evidencia.",
+      "definicion": {
+        "id": "v-equipamientos",
+        "nombre": "Equipamientos próximos",
+        "descripcion": "Conteo de equipamientos en el ámbito y umbral documentados por el análisis.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k2"
+        ],
+        "ejeECP": [
+          "e5"
+        ],
+        "naturalezaMedicion": "GIS",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 46,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "equipamientos",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-riobamba-aportes",
+      "variableId": "v-aportes",
+      "canton": "riobamba",
+      "valor": 67,
+      "unidad": "aportes",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/riobamba/aportes",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "enviado",
+      "geometria": null,
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-aportes",
+        "nombre": "Número de aportes ciudadanos",
+        "descripcion": "Conteo de aportes registrados, con distribución territorial y trazabilidad.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "administrativa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 56,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "aportes",
+          "geografica": false,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-riobamba-respuestas",
+      "variableId": "v-respuestas",
+      "canton": "riobamba",
+      "valor": 68,
+      "unidad": "%",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/riobamba/respuestas",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "borrador",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.6526,
+          -1.6616
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-respuestas",
+        "nombre": "Porcentaje de aportes respondidos",
+        "descripcion": "Proporción reportada por el registro de participación. Se conserva como valor reportado; no se ejecuta una fórmula no aprobada.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "derivada",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": "%",
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 56,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "%",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": 100,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-riobamba-codiseno",
+      "variableId": "v-codiseno",
+      "canton": "riobamba",
+      "valor": 3,
+      "unidad": "proyectos",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/riobamba/codiseno",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "observado",
+      "geometria": null,
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "Observación de demostración: completar evidencia.",
+      "definicion": {
+        "id": "v-codiseno",
+        "nombre": "Proyectos sometidos a codiseño",
+        "descripcion": "Conteo documental de proyectos con procesos de codiseño.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "administrativa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 79,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "proyectos",
+          "geografica": false,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-riobamba-tiempo-acceso",
+      "variableId": "v-tiempo-acceso",
+      "canton": "riobamba",
+      "valor": 14,
+      "unidad": "min",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/riobamba/tiempo-acceso",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "validado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.6486,
+          -1.6636
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-tiempo-acceso",
+        "nombre": "Tiempo estimado de acceso a servicios",
+        "descripcion": "Tiempo de acceso reportado a partir de redes. Requiere especificar destino, modo y supuestos.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k2"
+        ],
+        "ejeECP": [
+          "e5"
+        ],
+        "naturalezaMedicion": "derivada",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 94,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "min",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-riobamba-ancho-acera",
+      "variableId": "v-ancho-acera",
+      "canton": "riobamba",
+      "valor": 1.4,
+      "unidad": "m",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/riobamba/ancho-acera",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "enviado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.6546,
+          -1.6616
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-ancho-acera",
+        "nombre": "Ancho útil de aceras",
+        "descripcion": "Medición de ancho libre útil en un tramo focal. El TdR no fija un umbral universal de aprobación.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k3"
+        ],
+        "ejeECP": [
+          "e2"
+        ],
+        "naturalezaMedicion": "directa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 59,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "m",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-riobamba-cobertura",
+      "variableId": "v-cobertura",
+      "canton": "riobamba",
+      "valor": 18,
+      "unidad": "%",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/riobamba/cobertura",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "borrador",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.6526,
+          -1.6596
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-cobertura",
+        "nombre": "Cobertura vegetal",
+        "descripcion": "Cobertura vegetal reportada en un polígono; registrar imagen, fecha, resolución y método.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k4"
+        ],
+        "ejeECP": [
+          "e6"
+        ],
+        "naturalezaMedicion": "teledeteccion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 49,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "%",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": 100,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-riobamba-permeable",
+      "variableId": "v-permeable",
+      "canton": "riobamba",
+      "valor": 840,
+      "unidad": "m²",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/riobamba/permeable",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "observado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.6506,
+          -1.6636
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "Observación de demostración: completar evidencia.",
+      "definicion": {
+        "id": "v-permeable",
+        "nombre": "Suelo permeable",
+        "descripcion": "Área reportada de suelo permeable en el polígono, con clasificación y método.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k4"
+        ],
+        "ejeECP": [
+          "e6"
+        ],
+        "naturalezaMedicion": "GIS",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 47,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "m²",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-riobamba-temperatura",
+      "variableId": "v-temperatura",
+      "canton": "riobamba",
+      "valor": 24.8,
+      "unidad": "°C",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/riobamba/temperatura",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "validado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.6486,
+          -1.6616
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-temperatura",
+        "nombre": "Temperatura de superficie",
+        "descripcion": "Temperatura superficial como contexto, distinta de temperatura del aire o confort percibido.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k4"
+        ],
+        "ejeECP": [
+          "e6"
+        ],
+        "naturalezaMedicion": "teledeteccion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 94,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "°C",
+          "geografica": true,
+          "minimo": null,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-riobamba-capacitados",
+      "variableId": "v-capacitados",
+      "canton": "riobamba",
+      "valor": 10,
+      "unidad": "personas",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/riobamba/capacitados",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "enviado",
+      "geometria": null,
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-capacitados",
+        "nombre": "Usuarios capacitados",
+        "descripcion": "Conteo administrativo de personas capacitadas; no equivale a capacidad institucional agregada.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "administrativa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 33,
+        "paginaTdR": 15,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "personas",
+          "geografica": false,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-riobamba-barreras",
+      "variableId": "v-barreras",
+      "canton": "riobamba",
+      "valor": "Poste reduce el paso libre en el tramo de observación.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/riobamba/barreras",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "borrador",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.6526,
+          -1.6636
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-barreras",
+        "nombre": "Barreras y obstáculos",
+        "descripcion": "Ubicación y descripción de barreras físicas identificadas en el recorrido.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k3"
+        ],
+        "ejeECP": [
+          "e2"
+        ],
+        "naturalezaMedicion": "observacion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 36,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-riobamba-continuidad",
+      "variableId": "v-continuidad",
+      "canton": "riobamba",
+      "valor": "Recorrido continuo con una interrupción en el cruce norte.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/riobamba/continuidad",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "observado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.6506,
+          -1.6616
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "Observación de demostración: completar evidencia.",
+      "definicion": {
+        "id": "v-continuidad",
+        "nombre": "Continuidad de aceras",
+        "descripcion": "Descripción de continuidad funcional y discontinuidades observadas en el sector focal.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k3"
+        ],
+        "ejeECP": [
+          "e5"
+        ],
+        "naturalezaMedicion": "observacion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 52,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-riobamba-usos",
+      "variableId": "v-usos",
+      "canton": "riobamba",
+      "valor": "Vivienda, comercio barrial y equipamiento educativo.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/riobamba/usos",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "validado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.6486,
+          -1.6596
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-usos",
+        "nombre": "Mezcla de usos y actividades",
+        "descripcion": "Inventario de usos presentes; no se fabrica un índice de mezcla.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k2"
+        ],
+        "ejeECP": [
+          "e3"
+        ],
+        "naturalezaMedicion": "GIS",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 24,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-riobamba-trazabilidad",
+      "variableId": "v-trazabilidad",
+      "canton": "riobamba",
+      "valor": "Matriz DEMO: aporte sobre cruce incorporado a la alternativa; revisión municipal pendiente.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/riobamba/trazabilidad",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "observado",
+      "geometria": null,
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "Observación de demostración: completar evidencia.",
+      "definicion": {
+        "id": "v-trazabilidad",
+        "nombre": "Trazabilidad de decisiones",
+        "descripcion": "Referencia verificable de decisión, aporte, incorporación o rechazo y justificación.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "administrativa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 56,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": false,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-riobamba-equipamientos",
+      "variableId": "v-equipamientos",
+      "canton": "riobamba",
+      "valor": 6,
+      "unidad": "equipamientos",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/riobamba/equipamientos",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "validado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -78.6486,
+          -1.6636
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-equipamientos",
+        "nombre": "Equipamientos próximos",
+        "descripcion": "Conteo de equipamientos en el ámbito y umbral documentados por el análisis.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k2"
+        ],
+        "ejeECP": [
+          "e5"
+        ],
+        "naturalezaMedicion": "GIS",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 46,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "equipamientos",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-loja-aportes",
+      "variableId": "v-aportes",
+      "canton": "loja",
+      "valor": 91,
+      "unidad": "aportes",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/loja/aportes",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "borrador",
+      "geometria": null,
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-aportes",
+        "nombre": "Número de aportes ciudadanos",
+        "descripcion": "Conteo de aportes registrados, con distribución territorial y trazabilidad.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "administrativa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 56,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "aportes",
+          "geografica": false,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-loja-respuestas",
+      "variableId": "v-respuestas",
+      "canton": "loja",
+      "valor": 81,
+      "unidad": "%",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/loja/respuestas",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "observado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -79.2022,
+          -3.9911
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "Observación de demostración: completar evidencia.",
+      "definicion": {
+        "id": "v-respuestas",
+        "nombre": "Porcentaje de aportes respondidos",
+        "descripcion": "Proporción reportada por el registro de participación. Se conserva como valor reportado; no se ejecuta una fórmula no aprobada.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "derivada",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": "%",
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 56,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "%",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": 100,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-loja-codiseno",
+      "variableId": "v-codiseno",
+      "canton": "loja",
+      "valor": 5,
+      "unidad": "proyectos",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/loja/codiseno",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "validado",
+      "geometria": null,
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-codiseno",
+        "nombre": "Proyectos sometidos a codiseño",
+        "descripcion": "Conteo documental de proyectos con procesos de codiseño.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "administrativa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 79,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "proyectos",
+          "geografica": false,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-loja-tiempo-acceso",
+      "variableId": "v-tiempo-acceso",
+      "canton": "loja",
+      "valor": 11,
+      "unidad": "min",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/loja/tiempo-acceso",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "enviado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -79.1982,
+          -3.9931
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-tiempo-acceso",
+        "nombre": "Tiempo estimado de acceso a servicios",
+        "descripcion": "Tiempo de acceso reportado a partir de redes. Requiere especificar destino, modo y supuestos.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k2"
+        ],
+        "ejeECP": [
+          "e5"
+        ],
+        "naturalezaMedicion": "derivada",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 94,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "min",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-loja-ancho-acera",
+      "variableId": "v-ancho-acera",
+      "canton": "loja",
+      "valor": 1.8,
+      "unidad": "m",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/loja/ancho-acera",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "borrador",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -79.2042,
+          -3.9911
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-ancho-acera",
+        "nombre": "Ancho útil de aceras",
+        "descripcion": "Medición de ancho libre útil en un tramo focal. El TdR no fija un umbral universal de aprobación.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k3"
+        ],
+        "ejeECP": [
+          "e2"
+        ],
+        "naturalezaMedicion": "directa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 59,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "m",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-loja-cobertura",
+      "variableId": "v-cobertura",
+      "canton": "loja",
+      "valor": 31,
+      "unidad": "%",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/loja/cobertura",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "observado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -79.2022,
+          -3.9891
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "Observación de demostración: completar evidencia.",
+      "definicion": {
+        "id": "v-cobertura",
+        "nombre": "Cobertura vegetal",
+        "descripcion": "Cobertura vegetal reportada en un polígono; registrar imagen, fecha, resolución y método.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k4"
+        ],
+        "ejeECP": [
+          "e6"
+        ],
+        "naturalezaMedicion": "teledeteccion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 49,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "%",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": 100,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-loja-permeable",
+      "variableId": "v-permeable",
+      "canton": "loja",
+      "valor": 1640,
+      "unidad": "m²",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/loja/permeable",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "validado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -79.2002,
+          -3.9931
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-permeable",
+        "nombre": "Suelo permeable",
+        "descripcion": "Área reportada de suelo permeable en el polígono, con clasificación y método.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k4"
+        ],
+        "ejeECP": [
+          "e6"
+        ],
+        "naturalezaMedicion": "GIS",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 47,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "m²",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-loja-temperatura",
+      "variableId": "v-temperatura",
+      "canton": "loja",
+      "valor": 23.1,
+      "unidad": "°C",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/loja/temperatura",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "enviado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -79.1982,
+          -3.9911
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-temperatura",
+        "nombre": "Temperatura de superficie",
+        "descripcion": "Temperatura superficial como contexto, distinta de temperatura del aire o confort percibido.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k4"
+        ],
+        "ejeECP": [
+          "e6"
+        ],
+        "naturalezaMedicion": "teledeteccion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 94,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "°C",
+          "geografica": true,
+          "minimo": null,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-loja-capacitados",
+      "variableId": "v-capacitados",
+      "canton": "loja",
+      "valor": 15,
+      "unidad": "personas",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/loja/capacitados",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "borrador",
+      "geometria": null,
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-capacitados",
+        "nombre": "Usuarios capacitados",
+        "descripcion": "Conteo administrativo de personas capacitadas; no equivale a capacidad institucional agregada.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "administrativa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 33,
+        "paginaTdR": 15,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "personas",
+          "geografica": false,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-loja-barreras",
+      "variableId": "v-barreras",
+      "canton": "loja",
+      "valor": "Poste reduce el paso libre en el tramo de observación.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/loja/barreras",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "observado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -79.2022,
+          -3.9931
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "Observación de demostración: completar evidencia.",
+      "definicion": {
+        "id": "v-barreras",
+        "nombre": "Barreras y obstáculos",
+        "descripcion": "Ubicación y descripción de barreras físicas identificadas en el recorrido.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k3"
+        ],
+        "ejeECP": [
+          "e2"
+        ],
+        "naturalezaMedicion": "observacion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 36,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-loja-continuidad",
+      "variableId": "v-continuidad",
+      "canton": "loja",
+      "valor": "Recorrido continuo con una interrupción en el cruce norte.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/loja/continuidad",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "validado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -79.2002,
+          -3.9911
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-continuidad",
+        "nombre": "Continuidad de aceras",
+        "descripcion": "Descripción de continuidad funcional y discontinuidades observadas en el sector focal.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k3"
+        ],
+        "ejeECP": [
+          "e5"
+        ],
+        "naturalezaMedicion": "observacion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 52,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-loja-usos",
+      "variableId": "v-usos",
+      "canton": "loja",
+      "valor": "Vivienda, comercio barrial y equipamiento educativo.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/loja/usos",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "enviado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -79.1982,
+          -3.9891
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-usos",
+        "nombre": "Mezcla de usos y actividades",
+        "descripcion": "Inventario de usos presentes; no se fabrica un índice de mezcla.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k2"
+        ],
+        "ejeECP": [
+          "e3"
+        ],
+        "naturalezaMedicion": "GIS",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 24,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-loja-rampas",
+      "variableId": "v-rampas",
+      "canton": "loja",
+      "valor": "Dos accesos observados; verificar transición con calzada.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/loja/rampas",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "borrador",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -79.2042,
+          -3.9931
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-rampas",
+        "nombre": "Rampas y accesos",
+        "descripcion": "Inventario focal de rampas y condiciones de acceso, sin score agregado.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k3"
+        ],
+        "ejeECP": [
+          "e2"
+        ],
+        "naturalezaMedicion": "observacion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 52,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-loja-sombra",
+      "variableId": "v-sombra",
+      "canton": "loja",
+      "valor": "Sombra parcial de arbolado en el recorrido a las 12:00.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/loja/sombra",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "observado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -79.2022,
+          -3.9911
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "Observación de demostración: completar evidencia.",
+      "definicion": {
+        "id": "v-sombra",
+        "nombre": "Rutas con sombra",
+        "descripcion": "Descripción focal de sombra en recorridos con fecha y hora de observación.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k4"
+        ],
+        "ejeECP": [
+          "e6"
+        ],
+        "naturalezaMedicion": "observacion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 51,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-loja-trazabilidad",
+      "variableId": "v-trazabilidad",
+      "canton": "loja",
+      "valor": "Matriz DEMO: aporte sobre cruce incorporado a la alternativa; revisión municipal pendiente.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/loja/trazabilidad",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "validado",
+      "geometria": null,
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-trazabilidad",
+        "nombre": "Trazabilidad de decisiones",
+        "descripcion": "Referencia verificable de decisión, aporte, incorporación o rechazo y justificación.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "administrativa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 56,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": false,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-loja-equipamientos",
+      "variableId": "v-equipamientos",
+      "canton": "loja",
+      "valor": 9,
+      "unidad": "equipamientos",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/loja/equipamientos",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "enviado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -79.1982,
+          -3.9931
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-equipamientos",
+        "nombre": "Equipamientos próximos",
+        "descripcion": "Conteo de equipamientos en el ámbito y umbral documentados por el análisis.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k2"
+        ],
+        "ejeECP": [
+          "e5"
+        ],
+        "naturalezaMedicion": "GIS",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 46,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "equipamientos",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-portoviejo-aportes",
+      "variableId": "v-aportes",
+      "canton": "portoviejo",
+      "valor": 73,
+      "unidad": "aportes",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/portoviejo/aportes",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "observado",
+      "geometria": null,
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "Observación de demostración: completar evidencia.",
+      "definicion": {
+        "id": "v-aportes",
+        "nombre": "Número de aportes ciudadanos",
+        "descripcion": "Conteo de aportes registrados, con distribución territorial y trazabilidad.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "administrativa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 56,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "aportes",
+          "geografica": false,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-portoviejo-respuestas",
+      "variableId": "v-respuestas",
+      "canton": "portoviejo",
+      "valor": 75,
+      "unidad": "%",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/portoviejo/respuestas",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "validado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -80.4525,
+          -1.0526
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-respuestas",
+        "nombre": "Porcentaje de aportes respondidos",
+        "descripcion": "Proporción reportada por el registro de participación. Se conserva como valor reportado; no se ejecuta una fórmula no aprobada.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "derivada",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": "%",
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 56,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "%",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": 100,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-portoviejo-codiseno",
+      "variableId": "v-codiseno",
+      "canton": "portoviejo",
+      "valor": 4,
+      "unidad": "proyectos",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/portoviejo/codiseno",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "enviado",
+      "geometria": null,
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-codiseno",
+        "nombre": "Proyectos sometidos a codiseño",
+        "descripcion": "Conteo documental de proyectos con procesos de codiseño.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "administrativa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 79,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "proyectos",
+          "geografica": false,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-portoviejo-tiempo-acceso",
+      "variableId": "v-tiempo-acceso",
+      "canton": "portoviejo",
+      "valor": 16,
+      "unidad": "min",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/portoviejo/tiempo-acceso",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "borrador",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -80.4485,
+          -1.0546
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-tiempo-acceso",
+        "nombre": "Tiempo estimado de acceso a servicios",
+        "descripcion": "Tiempo de acceso reportado a partir de redes. Requiere especificar destino, modo y supuestos.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k2"
+        ],
+        "ejeECP": [
+          "e5"
+        ],
+        "naturalezaMedicion": "derivada",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 94,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "min",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-portoviejo-ancho-acera",
+      "variableId": "v-ancho-acera",
+      "canton": "portoviejo",
+      "valor": 1.55,
+      "unidad": "m",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/portoviejo/ancho-acera",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "observado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -80.4545,
+          -1.0526
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "Observación de demostración: completar evidencia.",
+      "definicion": {
+        "id": "v-ancho-acera",
+        "nombre": "Ancho útil de aceras",
+        "descripcion": "Medición de ancho libre útil en un tramo focal. El TdR no fija un umbral universal de aprobación.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k3"
+        ],
+        "ejeECP": [
+          "e2"
+        ],
+        "naturalezaMedicion": "directa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 59,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "m",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-portoviejo-cobertura",
+      "variableId": "v-cobertura",
+      "canton": "portoviejo",
+      "valor": 22,
+      "unidad": "%",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/portoviejo/cobertura",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "validado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -80.4525,
+          -1.0506
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-cobertura",
+        "nombre": "Cobertura vegetal",
+        "descripcion": "Cobertura vegetal reportada en un polígono; registrar imagen, fecha, resolución y método.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k4"
+        ],
+        "ejeECP": [
+          "e6"
+        ],
+        "naturalezaMedicion": "teledeteccion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 49,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "%",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": 100,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-portoviejo-permeable",
+      "variableId": "v-permeable",
+      "canton": "portoviejo",
+      "valor": 1180,
+      "unidad": "m²",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/portoviejo/permeable",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "enviado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -80.4505,
+          -1.0546
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-permeable",
+        "nombre": "Suelo permeable",
+        "descripcion": "Área reportada de suelo permeable en el polígono, con clasificación y método.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k4"
+        ],
+        "ejeECP": [
+          "e6"
+        ],
+        "naturalezaMedicion": "GIS",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 47,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "m²",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-portoviejo-temperatura",
+      "variableId": "v-temperatura",
+      "canton": "portoviejo",
+      "valor": 32.7,
+      "unidad": "°C",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/portoviejo/temperatura",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "borrador",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -80.4485,
+          -1.0526
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-temperatura",
+        "nombre": "Temperatura de superficie",
+        "descripcion": "Temperatura superficial como contexto, distinta de temperatura del aire o confort percibido.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k4"
+        ],
+        "ejeECP": [
+          "e6"
+        ],
+        "naturalezaMedicion": "teledeteccion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 94,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "°C",
+          "geografica": true,
+          "minimo": null,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-portoviejo-capacitados",
+      "variableId": "v-capacitados",
+      "canton": "portoviejo",
+      "valor": 11,
+      "unidad": "personas",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/portoviejo/capacitados",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "observado",
+      "geometria": null,
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "Observación de demostración: completar evidencia.",
+      "definicion": {
+        "id": "v-capacitados",
+        "nombre": "Usuarios capacitados",
+        "descripcion": "Conteo administrativo de personas capacitadas; no equivale a capacidad institucional agregada.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "administrativa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 33,
+        "paginaTdR": 15,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "personas",
+          "geografica": false,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-portoviejo-barreras",
+      "variableId": "v-barreras",
+      "canton": "portoviejo",
+      "valor": "Poste reduce el paso libre en el tramo de observación.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/portoviejo/barreras",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "validado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -80.4525,
+          -1.0546
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-barreras",
+        "nombre": "Barreras y obstáculos",
+        "descripcion": "Ubicación y descripción de barreras físicas identificadas en el recorrido.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k3"
+        ],
+        "ejeECP": [
+          "e2"
+        ],
+        "naturalezaMedicion": "observacion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 36,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-portoviejo-continuidad",
+      "variableId": "v-continuidad",
+      "canton": "portoviejo",
+      "valor": "Recorrido continuo con una interrupción en el cruce norte.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/portoviejo/continuidad",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "enviado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -80.4505,
+          -1.0526
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-continuidad",
+        "nombre": "Continuidad de aceras",
+        "descripcion": "Descripción de continuidad funcional y discontinuidades observadas en el sector focal.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k3"
+        ],
+        "ejeECP": [
+          "e5"
+        ],
+        "naturalezaMedicion": "observacion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 52,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-portoviejo-usos",
+      "variableId": "v-usos",
+      "canton": "portoviejo",
+      "valor": "Vivienda, comercio barrial y equipamiento educativo.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/portoviejo/usos",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "borrador",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -80.4485,
+          -1.0506
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-usos",
+        "nombre": "Mezcla de usos y actividades",
+        "descripcion": "Inventario de usos presentes; no se fabrica un índice de mezcla.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k2"
+        ],
+        "ejeECP": [
+          "e3"
+        ],
+        "naturalezaMedicion": "GIS",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 24,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-portoviejo-rampas",
+      "variableId": "v-rampas",
+      "canton": "portoviejo",
+      "valor": "Dos accesos observados; verificar transición con calzada.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/portoviejo/rampas",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "observado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -80.4545,
+          -1.0546
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "Observación de demostración: completar evidencia.",
+      "definicion": {
+        "id": "v-rampas",
+        "nombre": "Rampas y accesos",
+        "descripcion": "Inventario focal de rampas y condiciones de acceso, sin score agregado.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k3"
+        ],
+        "ejeECP": [
+          "e2"
+        ],
+        "naturalezaMedicion": "observacion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 52,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-portoviejo-sombra",
+      "variableId": "v-sombra",
+      "canton": "portoviejo",
+      "valor": "Sombra parcial de arbolado en el recorrido a las 12:00.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "media",
+      "evidencia": "DEMO/portoviejo/sombra",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "validado",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -80.4525,
+          -1.0526
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-sombra",
+        "nombre": "Rutas con sombra",
+        "descripcion": "Descripción focal de sombra en recorridos con fecha y hora de observación.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k4"
+        ],
+        "ejeECP": [
+          "e6"
+        ],
+        "naturalezaMedicion": "observacion",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 51,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-portoviejo-trazabilidad",
+      "variableId": "v-trazabilidad",
+      "canton": "portoviejo",
+      "valor": "Matriz DEMO: aporte sobre cruce incorporado a la alternativa; revisión municipal pendiente.",
+      "unidad": null,
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "baja",
+      "evidencia": "DEMO/portoviejo/trazabilidad",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "enviado",
+      "geometria": null,
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-trazabilidad",
+        "nombre": "Trazabilidad de decisiones",
+        "descripcion": "Referencia verificable de decisión, aporte, incorporación o rechazo y justificación.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k1"
+        ],
+        "ejeECP": [
+          "e1"
+        ],
+        "naturalezaMedicion": "administrativa",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 56,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "text",
+          "unidadDemo": null,
+          "geografica": false,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    },
+    {
+      "id": "demo-portoviejo-equipamientos",
+      "variableId": "v-equipamientos",
+      "canton": "portoviejo",
+      "valor": 7,
+      "unidad": "equipamientos",
+      "periodo": "2026-09-01",
+      "ambito": "Sector focal",
+      "sector": "Sector demostrativo A",
+      "escenario": "actual",
+      "fuente": "Conjunto ficticio para demostración",
+      "responsable": "Equipo municipal de demostración",
+      "observacion": "Datos ficticios; no representan condiciones oficiales ni mediciones de campo.",
+      "calidad": "alta",
+      "evidencia": "DEMO/portoviejo/equipamientos",
+      "metodo": "Convención de demostración homogénea: sector ficticio A, septiembre 2026. Valores reportados de ejemplo; sin cálculo automático ni inferencia de impacto.",
+      "estado": "borrador",
+      "geometria": {
+        "type": "Point",
+        "coordinates": [
+          -80.4485,
+          -1.0546
+        ]
+      },
+      "grupoPoblacional": null,
+      "revision": 1,
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "updatedAt": "2026-09-20T14:00:00.000Z",
+      "validacion": "",
+      "definicion": {
+        "id": "v-equipamientos",
+        "nombre": "Equipamientos próximos",
+        "descripcion": "Conteo de equipamientos en el ámbito y umbral documentados por el análisis.",
+        "nivel": "variable",
+        "categoria": "Captura del piloto",
+        "claveECP": [
+          "k2"
+        ],
+        "ejeECP": [
+          "e5"
+        ],
+        "naturalezaMedicion": "GIS",
+        "estadoMedicion": "MEDIBLE_TDR_ACTUAL",
+        "fuenteMedicion": "Levantamiento focal o información institucional, según TdR pp. 9–10 y 14–16.",
+        "unidad": null,
+        "formula": null,
+        "periodicidad": null,
+        "paginaGuia": 46,
+        "paginaTdR": 14,
+        "fuenteDocumento": [
+          "guia-paradigma-DIGITAL.pdf",
+          "TdR_Digi_GADs_CORREGIDO_TIC.docx"
+        ],
+        "notas": "Captura de insumos prevista en los TdR; no equivale a una metodología institucional aprobada. Marco de indicadores a validar en E2 (TdR p. 16).",
+        "parentId": "observables",
+        "version": 1,
+        "captura": {
+          "tipo": "number",
+          "unidadDemo": "equipamientos",
+          "geografica": true,
+          "minimo": 0,
+          "maximo": null,
+          "grupoPoblacional": false,
+          "convencion": "Unidad y reglas de captura de demostración; no son una ficha oficial aprobada."
+        }
+      },
+      "demo": true
+    }
+  ]
+}
